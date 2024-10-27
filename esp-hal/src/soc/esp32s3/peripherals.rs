@@ -28,6 +28,8 @@ crate::peripherals! {
     BT <= virtual,
     CPU_CTRL <= virtual,
     DMA <= DMA (DMA_IN_CH0,DMA_IN_CH1,DMA_IN_CH2,DMA_IN_CH3,DMA_IN_CH4,DMA_OUT_CH0,DMA_OUT_CH1,DMA_OUT_CH2,DMA_OUT_CH3,DMA_OUT_CH4),
+    EMAC_DMA <= EMAC_DMA (ETH_MAC),
+    EMAC_MAC <= EMAC_MAC,
     DS <= DS,
     EFUSE <= EFUSE,
     EXTMEM <= EXTMEM,
