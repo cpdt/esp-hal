@@ -32,6 +32,7 @@ crate::peripherals! {
     DMA <= virtual,
     EMAC_DMA <= EMAC_DMA (ETH_MAC),
     EMAC_MAC <= EMAC_MAC,
+    EMAC_EXT <= EMAC_EXT,
     EFUSE <= EFUSE,
     FLASH_ENCRYPTION <= FLASH_ENCRYPTION,
     FRC_TIMER <= FRC_TIMER,
