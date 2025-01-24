@@ -1860,6 +1860,11 @@ impl<'d> Flex<'d> {
         unsafe { AnyPin::steal(self.number()) }.split()
     }
 
+    #[inline]
+    pub fn set_alternate_function(&self, alternate: AlternateFunction) {
+        unsafe { AnyPin::steal(self.number()) }.set_alternate_function(alternate)
+    }
+
     /// Turns the pin object into a peripheral
     /// [output][interconnect::OutputSignal].
     ///
